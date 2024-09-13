@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barbearia</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="logoedit.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="cortes.html">
+            Cortes Masculinos
+          </a>
+        </li>
+          <li class="nav-item">
+            <a class="nav-link" href="historia.html">
+              Historia
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ctt">
+              Contatos
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <h1>Bem Vindo a Nossa Barberaria</h1></div>
+  <br>
+  <br>
+  <br>
+    <section style="padding: 0 10px; margin:10px auto">
+      <h1>Nossos Cortes</h1><br>
+      <h3>O corte mais pedido em nossa Barbearia</h3>
+      <div class="quadrado">
+      </div>
+    </section>
+    <a name="ctt" >Contato</a>
+    <section class="centro" >
+      <form class="fundo_form" align="center">
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <label for="validationServer01">
+              Primeiro nome
+            </label>
+            <input type="text" class="form-control is-valid" id="validationServer01" placeholder="Nome" value="" required>
+            <div class="valid-feedback">
+              Tudo certo!
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationServer02">
+              Sobrenome
+            </label>
+            <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Sobrenome" value="" required>
+            <div class="valid-feedback">
+              Tudo certo!
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationServerUsername">
+              Usuário
+            </label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroupPrepend3">
+                  @
+                </span>
+              </div>
+              <input type="text" class="form-control is-invalid" id="validationServerUsername" placeholder="Usuário" aria-describedby="inputGroupPrepend3" required>
+              <div class="invalid-feedback">
+                Por favor, escolha um nome de usuário.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="validationServer03">
+              Cidade
+            </label>
+            <input type="text" class="form-control is-invalid" id="validationServer03" placeholder="Cidade" required>
+            <div class="invalid-feedback">
+              Por favor, informe uma cidade válida.
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="validationServer04">
+              Estado
+            </label>
+            <input type="text" class="form-control is-invalid" id="validationServer04" placeholder="Estado" required>
+            <div class="invalid-feedback">
+              Por favor, informe um estado válido.
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="validationServer05">
+              CEP
+            </label>
+            <input type="text" class="form-control is-invalid" id="validationServer05" placeholder="CEP" required>
+            <div class="invalid-feedback">
+              Por favor, informe um CEP válido.
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
+            <label class="form-check-label" for="invalidCheck3">
+              Concordo com os termos e condições
+            </label>
+            <div class="invalid-feedback">
+              Você deve concordar, antes de continuar.
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-primary" type="submit" alert="('ssssss')" onclick="mostrarMensagem()">
+          Enviar
+        </button>
+      </form>
+      <script>
+        function mostrarMensagem() {
+            alert('Cadastro enviado com sucesso!')
+        }
+      </script>
+    </section>
+  </body>
+</html>
